@@ -1,0 +1,122 @@
+body,
+html {
+    height: 100%;
+    background-image: url("assets/images/backgroundImage.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+/* header */
+h1 {
+    padding-top: 15px;
+    color: white;
+    font-family: 'Lobster';
+}
+
+h2 {
+    font-family: 'Yeon Sung';
+    color: white;
+
+}
+
+/* top-navbar */
+.tab {
+    color: white !important;
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tab:hover {
+    font-size: 35px;
+}
+
+.collapse-btn {
+    background-color: rgba(128, 128, 128, 0.329);
+}
+
+.active-tab {
+    outline: none;
+    border: none;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border-radius: 10px;
+}
+
+li {
+    margin-top: 5px;
+}
+
+.navbar {
+    margin-top: -7px !important;
+    margin: 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+#searchBtn {
+    background-color: white;
+    color: black;
+}
+
+/* line before cards */
+hr {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+/* card */
+.card {
+    background-color: rgba(245, 245, 245, 0.452);
+    margin: 1%;
+}
+
+.toggle-switch {
+    float: right;
+}
+
+.progress {
+    margin-top: 5%;
+}
+
+#modalBtn {
+    display: none;
+}
+
+
+/* about page */
+.header>h1 {
+    text-decoration: underline;
+}
+
+.text {
+    word-break: break-word;
+    color: white;
+    width: 50%;
+    font-size: larger;
+}
+
+.about-me-text {
+    word-break: break-word;
+
+    width: 50%;
+    margin-bottom: 3%;
+    color: white;
+    display: inline-block;
+}
+
+.about-me-text p {
+    word-break: break-word;
+    font-size: large;
+    color: b;
+}
+
+.about-me-text>img {
+    border-radius: 105px;
+    margin-bottom: 10px;
+}
+
